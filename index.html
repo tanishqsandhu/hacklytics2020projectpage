@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Hacklytics 2020 | How to Contain the Corona Virus</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/templatemo-main.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+<!--
+Vanilla Template
+https://templatemo.com/tm-526-vanilla
+-->
+<body>
+
+    <div class="fixed-side-navbar">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#home"><span>Intro</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#Problem"><span>Problem</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#Solution"><span>Research Topic</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#methodology"><span>Methodology</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#TabResults"><span>Visualization</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#statResults"><span>Statistical Analysis</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#execSum"><span>Executive Summary</span></a></li>
+        </ul>
+    </div>
+
+    <div class="parallax-content baner-content" id="home">
+        <div class="container">
+            <div class="first-content">
+                <svg width="1000" height="200">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="100%">Hacklytics 2020</text>
+                    </symbol>
+
+                    <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+                <h4><font size="8" color="white"><i>"Change the world..."</i> </font><h4>
+                <h4><font color="white" size="4"><b>Team Members</b>: Tanishq Sandhu, Hongrui Lyu, Danny Kim, Shababa Kamreen</font>  </h4>
+            </div>
+        </div>
+    </div>
+
+    <style type="text/css">
+        @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 200;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+svg {
+    display: inline;
+    font: 5em 'Montserrat';
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #7b9095;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+    stroke: navy;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+    stroke: white;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+    stroke: black;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+    stroke: white;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+    100% {stroke-dashoffset: -35%;}
+}
+    </style>
+
+
+    <div class="problem-content" id="Problem">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="left-text">
+                        <h4>What is a major problem affecting our world currently..?</h4>
+                        <div class="line-dec"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="solution-content" id="Solution">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="left-text">
+                        <h4><i>...The Coronavirus (Covid-19)</i></h4>
+                    <div class="line-dec"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax-content projects-content" id="methodology">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="wrapper">
+                    <section id="first-tab-group" class="tabgroup">
+                      <div id="tab1">
+                        <img src="img/1st-tab.jpg" class="tab" alt="">
+                        <p><b>Step 1:</b> First, we looked for a specific question to investigate:<br> <i>Does closing the border actually ineffective in containing an epidemic as the CDC claims?</i></p>
+                      </div>
+                      <div id="tab2">
+                        <img src="img/2nd-tab.jpg" class="tab" alt="">
+                        <p><b>Step 2:</b> Next, we looked for a localized epidemic in the past we could use to analyze and generalize from:<br> <i>The 2014 Outbreak of Ebola in Sierra Leone</i></p>
+                      </div>
+                      <div id="tab3">
+                        <img src="img/3rd-tab.jpg" class="tab" alt="">
+                        <<p><b>Step 3:</b> We then searched through datasets for data with features that particularly interested us and compiled them into one table and processed/clean them to ready them for our analysis:<br> <i>* See above for the column headers of our final csv *</i></p>
+                      </div>
+                      <div id="tab4" >
+                        <img src="img/4th-tab.jpg" class="tab" alt="">
+                        <p><b>Step 4:</b> For our analysis, we concluded using Tableau to show movement of Ebola to neighboring countries in conjunction with data of when those countries closed their borders would be most meaningful.</p>
+                      </div>
+                      <div id="tab5">
+                        <img src="img/4th-tab.jpg" class="tab" alt="">
+                        <p>Duis risus nulla, elementum vitae nisi a, ornare maximus nisl. Morbi et vehicula est. Cras at vulputate justo. Cras eu nulla metus. Ut et pretium velit. Pellentesque at neque tristique.</p>
+                      </div>
+                    </section>
+                    <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                      <li><a href="#tab1" class="active">Ideation</a></li>
+                      <li><a href="#tab2">Generalization</a></li>
+                      <li><a href="#tab3">Data Aggregation/Processing</a></li>
+                      <li><a href="#tab4">Visualization</a></li>
+                      <li><a href="#tab5">Statistical Analysis</a></li>
+                    </ul>
+                    </div>
+                    <style type="text/css">
+                    img {
+                     max-width:100%
+                    max-height:auto;
+                    }
+                    .tab{
+
+                    width: 550px;
+                    }
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tabs-content" id="TabResults">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs-content" id="statResults">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="parallax-content contact-content" id="execSum">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                        <div class="row">
+                            <p>Executive Summary</p>
+                        </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="primary-button">
+                        <a href="#home">Back To Top</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.getElementsByClassName("city");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";
+            }
+            document.getElementById(cityName).style.display = "block";
+        }
+    </script>
+
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $(".fixed-side-navbar a, .primary-button a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+    </script>
+
+</body>
+</html>
