@@ -17,6 +17,10 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="https://clientreporting.theinformationlab.co.uk/javascripts/api/tableau-2.min.js"></script>
+
+
+
     </head>
 <!--
 Vanilla Template
@@ -36,12 +40,12 @@ https://templatemo.com/tm-526-vanilla
         </ul>
     </div>
 
-    <div class="parallax-content baner-content" id="home">
+    <div class="parallax-content  baner-content" id="home">
         <div class="container">
             <div class="first-content">
                 <svg width="1000" height="200">
                     <symbol id="s-text">
-                        <text text-anchor="middle" x="50%" y="100%">Hacklytics 2020</text>
+                        <text text-anchor="middle" x="50%" y="95%">Hacklytics 2020</text>
                     </symbol>
 
                     <g class = "g-ants">
@@ -61,65 +65,65 @@ https://templatemo.com/tm-526-vanilla
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-html, body{
-  height: 100%;
-  font-weight: 200;
-}
+        html, body{
+          height: 100%;
+          font-weight: 200;
+        }
 
-body{
-  background: #030321;
-  font-family: Arial;
-}
+        body{
+          background: #030321;
+          font-family: Arial;
+        }
 
-svg {
-    display: inline;
-    font: 5em 'Montserrat';
-    width: 600px;
-    height: 300px;
-    margin: 0 auto;
-}
+        svg {
+            display: inline;
+            font: 5em 'Montserrat';
+            width: 600px;
+            height: 300px;
+            margin: 0 auto;
+        }
 
-.text-copy {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
-}
+        .text-copy {
+            fill: none;
+            stroke: white;
+            stroke-dasharray: 6% 29%;
+            stroke-width: 5px;
+            stroke-dashoffset: 0%;
+            animation: stroke-offset 5.5s infinite linear;
+        }
 
-.text-copy:nth-child(1){
-    stroke: #7b9095;
-    animation-delay: -1;
-}
+        .text-copy:nth-child(1){
+            stroke: #7b9095;
+            animation-delay: -1;
+        }
 
-.text-copy:nth-child(2){
-    stroke: navy;
-    animation-delay: -2s;
-}
+        .text-copy:nth-child(2){
+            stroke: black;
+            animation-delay: -2s;
+        }
 
-.text-copy:nth-child(3){
-    stroke: white;
-    animation-delay: -3s;
-}
+        .text-copy:nth-child(3){
+            stroke: white;
+            animation-delay: -3s;
+        }
 
-.text-copy:nth-child(4){
-    stroke: black;
-    animation-delay: -4s;
-}
+        .text-copy:nth-child(4){
+            stroke: white;
+            animation-delay: -4s;
+        }
 
-.text-copy:nth-child(5){
-    stroke: white;
-    animation-delay: -5s;
-}
+        .text-copy:nth-child(5){
+            stroke: white;
+            animation-delay: -5s;
+        }
 
-@keyframes stroke-offset{
-    100% {stroke-dashoffset: -35%;}
-}
+        @keyframes stroke-offset{
+            100% {stroke-dashoffset: -35%;}
+        }
     </style>
 
 
-    <div class="problem-content" id="Problem">
+    <div class="parallax-content problem-content" id="Problem">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -133,7 +137,7 @@ svg {
         </div>
     </div>
 
-    <div class="solution-content" id="Solution">
+    <div class="parallax-content solution-content" id="Solution">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -146,7 +150,7 @@ svg {
         </div>
     </div>
 
-    <div class="parallax-content projects-content" id="methodology">
+    <div class="parallax-content  projects-content" id="methodology">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -154,7 +158,7 @@ svg {
                     <section id="first-tab-group" class="tabgroup">
                       <div id="tab1">
                         <img src="img/1st-tab.jpg" class="tab" alt="">
-                        <p><b>Step 1:</b> First, we looked for a specific question to investigate:<br> <i>Does closing the border actually ineffective in containing an epidemic as the CDC claims?</i></p>
+                        <p><b>Step 1:</b> First, we looked for a specific question to investigate:<br> <i>Does closing the border actually ineffective in containing an epidemic as the CDC claims? Also, out of our own curiosity, does access to healthcare affect the spread of epidemics even with how fast their transmission rate is? </i></p>
                       </div>
                       <div id="tab2">
                         <img src="img/2nd-tab.jpg" class="tab" alt="">
@@ -166,11 +170,11 @@ svg {
                       </div>
                       <div id="tab4" >
                         <img src="img/4th-tab.jpg" class="tab" alt="">
-                        <p><b>Step 4:</b> For our analysis, we concluded using Tableau to show movement of Ebola to neighboring countries in conjunction with data of when those countries closed their borders would be most meaningful.</p>
+                        <p><b>Step 4:</b> For our visual analysis, we concluded using Tableau to show movement of Ebola to neighboring countries in conjunction with data of when those countries closed their borders would be most meaningful.</p>
                       </div>
                       <div id="tab5">
-                        <img src="img/4th-tab.jpg" class="tab" alt="">
-                        <p>Duis risus nulla, elementum vitae nisi a, ornare maximus nisl. Morbi et vehicula est. Cras at vulputate justo. Cras eu nulla metus. Ut et pretium velit. Pellentesque at neque tristique.</p>
+                        <img src="img/5th-tab.jpg" class="tab" alt="">
+                         <p><b>Step 5:</b> For our statistical analysis, we used a Paired T-Test for looking at if there is staistical significance between closing borders and epidemic spread. Also, we used the Linear Regression Machine Learning Model to look at correlation between healthcare access and concentration of infected indioviduals.</p>
                       </div>
                     </section>
                     <ul class="tabs clearfix" data-tabgroup="first-tab-group">
@@ -197,17 +201,18 @@ svg {
     </div>
 
 
-    <div class="tabs-content" id="TabResults">
+    <div class="parallax-content tabs-content" id="TabResults">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 mx-auto">
-
+                <div class="col-md-20 mx-auto">
+                    <p><font size="10" color="white">Tableau Analysis for whether Closing Borders effects Epidemic Spread</font></p>
+                    <iframe src="https://public.tableau.com/views/Ebola_SierraLeone/SpreadOfEbola_InCountriesSurroundingSierraLeone_OverTime?:showVizHome=no&:embed=true" width="1000" height="650"></iframe>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="tabs-content" id="statResults">
+    <div class="parallax-content tabs-content" id="statResults">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 mx-auto">
@@ -224,7 +229,7 @@ svg {
                 <div class="col-md-12">
 
                         <div class="row">
-                            <p>Executive Summary</p>
+                            <p><font size="12" color="white">Executive Summary</font></p>
                         </div>
 
                 </div>
