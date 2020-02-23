@@ -204,8 +204,8 @@ https://templatemo.com/tm-526-vanilla
     <div class="parallax-content tabs-content" id="TabResults">
         <div class="container">
             <div class="row">
-                <div class="col-md-20 mx-auto">
-                    <p><font size="10" color="white">Tableau Analysis for whether Closing Borders effects Epidemic Spread (2014)</font></p>
+                <div class="col-md-12 mx-auto">
+                    <p><font size="10"  color="white">Visualization-  whether Closing Borders effects Epidemic Spread (2014)</font></p>
                     <iframe src="https://public.tableau.com/views/Ebola_SierraLeone/SpreadOfEbola_InCountriesSurroundingSierraLeone_OverTime?:showVizHome=no&:embed=true" width="1000" height="650"></iframe>
                 </div>
             </div>
@@ -213,10 +213,199 @@ https://templatemo.com/tm-526-vanilla
     </div>
 
     <div class="parallax-content tabs-content" id="statResults">
-        <div class="container">
+        <div class="container-fluid">
+            <div class="col-md-12 mx-auto">
+            <p  align="center"><font size="16"  color="white">Statistical Analysis</font></p>
+        </div>
             <div class="row">
-                <div class="col-md-12 mx-auto">
-                    <p><font size="12" color="white">Statistical Analysis</font></p>
+                <div class="col">
+
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="img/MLLR.jpg" alt="card image"></p>
+                                    <h4 class="card-title"><font  size="5">Machine Learning for Access to Healthcare</font></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Report</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="img/stattest.png" alt="card image"></p>
+                                    <h4 class="card-title"><font size="5">Statistical Report</font></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Report</h4>
+                                    <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- ./Team member -->
+                <style type="text/css">
+                    /* FontAwesome for working BootSnippet :> */
+                    /* FontAwesome for working BootSnippet :> */
+                    .row{
+                        width: 100%;
+                        margin: 0 auto;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+                    #team {
+                        background: #eee !important;
+                    }
+
+                    .btn-primary:hover,
+                    .btn-primary:focus {
+                        background-color: #108d6f;
+                        border-color: #108d6f;
+                        box-shadow: none;
+                        outline: none;
+                    }
+
+                    .btn-primary {
+                        color: #fff;
+                        background-color: #007b5e;
+                        border-color: #007b5e;
+                    }
+
+                    section {
+                        padding: 0px 0;
+                    }
+
+                    section .section-title {
+                        text-align: center;
+                        color: #007b5e;
+                        margin-bottom: 0px;
+                        text-transform: uppercase;
+                    }
+
+                    #team .card {
+                        border: none;
+                        background: #ffffff;
+                    }
+
+                    .image-flip:hover .backside,
+                    .image-flip.hover .backside {
+                        -webkit-transform: rotateY(0deg);
+                        -moz-transform: rotateY(0deg);
+                        -o-transform: rotateY(0deg);
+                        -ms-transform: rotateY(0deg);
+                        transform: rotateY(0deg);
+                    }
+
+                    .image-flip:hover .frontside,
+                    .image-flip.hover .frontside {
+                        -webkit-transform: rotateY(180deg);
+                        -moz-transform: rotateY(180deg);
+                        -o-transform: rotateY(180deg);
+                        transform: rotateY(180deg);
+                    }
+
+                    .mainflip {
+
+                        -webkit-transition: 1s;
+                        -webkit-transform-style: preserve-3d;
+                        -ms-transition: 1s;
+                        -moz-transition: 1s;
+                        -moz-transform: perspective(1000px);
+                        -moz-transform-style: preserve-3d;
+                        -ms-transform-style: preserve-3d;
+                        transition: 1s;
+                        transform-style: preserve-3d;
+                        position: relative;
+                        margin:0 auto;
+                    }
+
+                    .frontside {
+                        position: relative;
+                        -webkit-transform: rotateY(0deg);
+                        -ms-transform: rotateY(0deg);
+                        z-index: 2;
+                        margin-bottom: 0px;
+                    }
+
+                    .backside {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background: white;
+                        -webkit-transform: rotateY(-180deg);
+                        -moz-transform: rotateY(-180deg);
+                        -o-transform: rotateY(-180deg);
+                        -ms-transform: rotateY(-180deg);
+                        transform: rotateY(-180deg);
+                        -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+                        -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+                        box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+                    }
+
+                    .frontside,
+                    .backside {
+                        -webkit-backface-visibility: hidden;
+                        -moz-backface-visibility: hidden;
+                        -ms-backface-visibility: hidden;
+                        backface-visibility: hidden;
+                        -webkit-transition: 1s;
+                        -webkit-transform-style: preserve-3d;
+                        -moz-transition: 1s;
+                        -moz-transform-style: preserve-3d;
+                        -o-transition: 1s;
+                        -o-transform-style: preserve-3d;
+                        -ms-transition: 1s;
+                        -ms-transform-style: preserve-3d;
+                        transition: 1s;
+                        transform-style: preserve-3d;
+                    }
+
+                    .frontside .card,
+                    .backside .card {
+                        min-height: 250px;
+                    }
+
+                    .backside .card a {
+                        font-size: 18px;
+                        color: #007b5e !important;
+                    }
+
+                    .frontside .card .card-title,
+                    .backside .card .card-title {
+                        color: #007b5e !important;
+                    }
+
+                    .frontside .card .card-body img {
+                        width: 300px;
+                        height: 300px;
+                    }
+                </style>
                 </div>
             </div>
         </div>
@@ -230,9 +419,9 @@ https://templatemo.com/tm-526-vanilla
 
                         <div class="row">
                             <p><font size="12" color="white">Executive Summary<br></font></p>
-                            <p><font size="8" color="white">Executive Summary</font></p>
-                        </div>
 
+                        </div>
+                            <p><font size="6" color="white"></font></p>
                 </div>
 
             </div>
